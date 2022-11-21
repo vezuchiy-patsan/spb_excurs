@@ -1,3 +1,3 @@
-# vezuchiy-patsan.github.io
-diplom 
-Мой сайт
+# spb_excursion
+
+Cайт экскурсии по крышам СПБ
