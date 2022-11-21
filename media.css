@@ -1,0 +1,381 @@
+@media (max-width: 1840px){
+    nav .account_side{
+        left: 1250px;
+    }
+    .log_in{
+        left: 1250px;
+    }
+    .reg{
+        left: 1420px;
+    }
+}
+
+@media (max-width: 1740px) {
+    nav .account_side{
+        left: 1200px;
+    }
+    .log_in{
+        left: 1200px;
+    }
+    .reg{
+        left: 1365px;
+    }
+}
+
+@media (max-width: 1640px) {
+    nav .account_side{
+      left: 1160px;
+    }
+    .log_in{
+        left: 1150px;
+    }
+    .reg{
+        left: 1315px;
+    }
+    .advantages{
+        margin-left: 550px;
+        margin-right: 550px;
+    }
+}
+
+@media (max-width: 1540px) {
+    nav .account_side{
+        left: 1130px;
+    }
+    .log_in{
+        left: 1100px;
+    }
+    .reg{
+        left: 1265px;
+    }
+}
+
+@media (max-width: 1440px) {
+    .advantages{
+        margin-left: 510px;
+        margin-right: 510px;
+    }
+    nav .account_side{
+        left: 1080px;
+    }
+    .log_in{
+        left: 1000px;
+    }
+    .reg{
+        left: 1165px;
+    }
+    .head {
+        width: auto;
+    }
+    .map .map_api{
+        width: 1200px;
+        height: 725px;
+    }
+    .why_we .line{
+        width: auto;
+    }
+}
+
+@media (max-width: 1366px) {
+    nav .account_side{
+        left: 1000px;
+      }
+    .advantages{
+        margin-left: 480px;
+        margin-right: 480px;
+    }
+}
+
+@media (max-width: 1296px){
+    nav .account_side{
+        left: 900px;
+    }
+    .map .map_api{
+        width: 1000px;
+        height: auto;
+    }
+    .head .excursion_text {
+        
+        width: 70%;
+    }
+}
+
+@media (max-width: 1195px){
+    nav .account_side{
+        left: 800px;
+    }
+}
+
+@media (max-width: 1095px){
+    nav .account_side{
+        left: 700px;
+    }
+}
+
+@media (max-width: 1024px) {
+    nav .account_side{
+        left: 700px;
+    }
+    .advantages{
+        margin-left: 310px;
+        margin-right: 310px;
+    }
+    .log_in{
+        left: 700px;
+    }
+    .reg{
+        left: 865px;
+    }
+    .head {
+        width: auto;
+    }
+    .map .map_api{
+        width: 900px;
+        height: auto;
+    }
+    .why_we .line{
+        width: auto;
+    }
+    .head .excursion_text {
+        width: 65%;
+    }
+    footer .data_footer{
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+}
+
+@media (max-width:1008px){
+    nav .account_side{
+        left: 620px;
+    }
+    .head .excursion_text .heading{
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 899px){
+    nav .account_side{
+        left: 590px;
+    }
+    .head .excursion_text .heading{
+        font-size: 28px;
+    }
+
+    .map .map_api{
+        width: 800px;
+    }
+    .advantages{
+        margin-left: 180px;
+        margin-right: 180px;
+    }
+}
+
+@media (max-width: 768px) {
+    nav .account_side{
+        left: 520px;
+    }
+    nav .account_side .accountButton, nav .account_side{
+        width: 200px;
+
+    }
+    .advantages{
+        margin-left: 160px;
+        margin-right: 160px;
+    }
+    .log_in{
+        left: 500px;
+        width: 105px;
+        height: 40px;
+    }
+    .log_in button.btn{
+        width: 105px;
+        height: 40px;
+        border-radius: 20px;
+        padding: 0 5px;
+
+    }
+    .reg{
+        left: 635px;
+        width: 125px;
+        height: 40px;
+        border-radius: 20px;
+        padding: 0 5px;
+    }
+    .reg button.btn{
+        width: 125px;
+        height: 40px;
+        border-radius: 20px;
+        padding: 0 5px;
+    }
+    .head {
+        width: auto;
+    }
+    .map .map_api{
+        width: 600px;
+        height: auto;
+    }
+    .why_we .line{
+        width: auto;
+    }
+    .head .excursion_text {
+        padding: 4px;
+    }
+
+    .head .heading{
+        font-size: 28px;
+    }
+
+    footer{
+        /* bottom: 0; */
+    }
+
+    footer .data_footer{
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+}
+
+@media (max-width:725px){
+    nav .account_side{
+        left: 525px;
+    }
+    nav .account_side .accountButton, nav .account_side{
+        width: 150px;
+    }
+}
+
+@media (max-width: 678px){
+    nav .account_side{
+        left: 450px;
+    }
+    nav .account_side .accountButton, nav .account_side{
+        width: 150px;
+    }
+}
+@media (max-width: 601px){
+    nav .account_side{
+        left: 430px;
+    }
+    nav .account_side .accountButton, nav .account_side{
+        width: 140px;
+    }
+    .map .map_api {
+        width: 550px;
+    }
+}
+
+@media (max-width: 571px){
+    nav .account_side{
+        left: 390px;
+    }
+    nav .account_side .accountButton, nav .account_side{
+        width: 130px;
+    }
+    .map .map_api {
+        width: 500px;
+    }
+    .advantages{
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+
+}
+
+@media (max-width: 521px){
+    nav .account_side{
+        left: 350px;
+    }
+    nav .account_side .accountButton, nav .account_side{
+        width: 130px;
+    }
+    .map .map_api {
+        width: 450px;
+    }
+
+    .head .excursion_text .heading{
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 484px){
+    nav .account_side{
+        left: 320px;
+    }
+    nav .account_side .accountButton, nav .account_side{
+        width: 130px;
+    }
+    .map .map_api {
+        width: 420px;
+    }
+    .advantages{
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+}
+
+@media (max-width: 425px) {
+    nav .account_side{
+        left: 280px;
+    }
+    nav .account_side .accountButton, nav .account_side{
+        width: 130px;
+    }
+
+    .advantages{
+        margin-left: 60px;
+        margin-right: 60px;
+    }
+    .log_in{
+        left: 300px;
+        top: 3px;
+        width: 105px;
+        height: 40px;
+    }
+    .log_in button.btn{
+        width: 85px;
+        height: 40px;
+        border-radius: 20px;
+        padding: 0 5px;
+        font-size: 16px;
+    }
+    .reg{
+        left: 285px;
+        top: 47px;
+        width: 125px;
+        height: 40px;
+        border-radius: 20px;
+        padding: 0 5px;
+    }
+    .reg button.btn{
+        width: 105px;
+        height: 40px;
+        border-radius: 20px;
+        padding: 0 5px;
+        font-size: 16px;
+    }
+    .head {
+        width: auto;
+    }
+    .map .map_api{
+        width: 370px;
+        height: 350px;
+    }
+    .why_we .line{
+        width: auto;
+    }
+    .head .excursion_text {
+        padding: 15px 4px 0 0;
+        
+    }
+
+    .head .excursion_text .heading{
+        font-size: 20px;
+       
+    }
+
+    footer .data_footer{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}

@@ -1,0 +1,341 @@
+
+p{
+	margin:0 0;
+}
+
+html, body{
+	height: 100%;
+}
+
+.mainSide{
+	position: relative;
+	min-height: 100%;
+}
+
+.head { 
+	background-color:rgba(227.37499594688416, 227.37499594688416, 227.37499594688416, 1);
+	width:1425px;
+	height:91px;
+	margin:0 auto;
+	border-top-left-radius:10px;
+	border-top-right-radius:10px;
+	border-bottom-left-radius:10px;
+	border-bottom-right-radius:10px;
+}
+.log_in { 
+	width:145px;
+	height:52px;
+	position:absolute;
+	left:1315px;
+	top:19px;
+}
+.border{ 
+	background-color:rgba(255, 255, 255, 1);
+	width:145px;
+	height:52px;
+	position:absolute;
+	left:0px;
+	top:0px;
+	border-top-left-radius:10px;
+	border-top-right-radius:10px;
+	border-bottom-left-radius:10px;
+	border-bottom-right-radius:10px;
+}
+.log_in_text { 
+	color:rgba(0, 0, 0, 1);
+	width:32px;
+	height:13px;
+	position:absolute;
+	left:57px;
+	top:16px;
+	font-family:Roboto;
+	text-align:left;
+	font-size:14px;
+	letter-spacing:0;
+}
+.reg { 
+	width:145px;
+	height:52px;
+	position:absolute;
+	left:1480px;
+	top:19px;
+}
+
+
+
+.modal.fade #buttonIn,.modal.fade #buttonReg, .modal.fade #buttonOrder{
+	justify-content: center;
+}
+
+
+.modal.fade #excursionModal .modal-footer, .modal.fade #data_accModal .modal-footer{
+	border-top: none;
+}
+
+.mainSide #exc_newModal .modal-dialog{
+	width: 1330px ;
+    
+}
+
+
+.mainSide #exc_newModal .modal-dialog{
+	width: 1330px ;
+    
+}
+
+.mainSide #exc_newModal .form_forInput{
+	align-items: center ;
+    
+}
+
+
+#exc_newModal #mapApi_order{
+	width: 682px ;
+    height: 413px ;
+}
+
+
+.log_in button.btn{
+	width:145px;
+	height:52px;
+	border-radius: 10px;
+}
+
+.reg button.btn, .map .modal-footer button.btn{
+	width:145px;
+	height:52px;
+	border-radius: 10px;
+}
+
+.mainSide .account_side {
+	z-index: 1;
+	
+}
+
+.mainSide .account_side .d-flex{
+	/* justify-content: space-between; */
+    align-items: center;
+}
+
+.mainSide .account_side div.d-flex p {
+    /* align-self: center; */
+}
+
+.mainSide .account_side .arrow-8 {
+    position: relative;
+    width: 25px;
+    height: 25px;
+    margin: 5px 0 0 0;
+}
+.mainSide .account_side .arrow-8:before,
+.mainSide .account_side .arrow-8:after {
+    content: '';
+    position: absolute;
+    width: 47%;
+    height: 47%;
+    border-left: 3px solid #337AB7;
+    border-bottom: 3px solid #337AB7;
+    animation: arrow-8 2s linear infinite;
+}
+.mainSide .account_side .arrow-8:after {
+	box-sizing:none;
+    animation: arrow-8 2s linear infinite 1.5s;
+}
+@keyframes arrow-8 {
+    0% {
+        opacity: 0;
+        transform: translate(0, -12px) rotate(-45deg);
+    }
+    10%, 90% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;  
+        transform: translate(0, 0) rotate(-45deg);
+    }
+    100% {
+        opacity: 0;
+        transform: translate(0, 12px) rotate(-45deg);
+    }
+}
+
+.head #notificate{
+	position: absolute;
+    left: 1230px;
+    top: 25px;
+}
+nav #notificateModal .line{
+	margin: 15px auto;
+	width: 450px;
+	border: 0;
+	height: 1px;
+	background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+	background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+	background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+	background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+}
+
+.account_side .accountButton{
+	width: 290px;
+	height:52px;
+	border-radius: 10px;
+}
+
+.account_side .card{
+	border-radius: 8px;
+	box-shadow: 0 0 0.25rem 0.15rem rgb(0 0 0/ 25%)
+}
+
+.account_side .card #buttonGroup .btn-outline-dark{
+	border-radius: 10px;
+	border-color: rgb(117, 117, 117, 50%) ;
+}
+
+.log_in button.btn:hover,.reg  button.btn:hover{
+	box-shadow: 0 0 0 0.25rem rgb(184 152 152/ 50%)
+}
+
+/* .log_in button.btn:not(:hover),.reg button.btn:not(:hover),.accountButton button.btn:not(:hover){
+	box-shadow: 0 0 0 0.25rem rgb(184 152 152/ 0%)
+} */
+
+.reg a.btn {
+	width:145px;
+	height:52px;
+	border-radius: 10px;
+}
+
+.reg a.btn:focus{
+	box-shadow: 0 0 0 0.25rem rgb(184 152 152/ 50%)
+}
+
+.reg a.btn:not(:hover){
+	box-shadow: 0 0 0 0.25rem rgb(184 152 152/ 0%)
+}
+
+nav .account_side{
+	width: 290px;
+	height:52px;
+	position:absolute;
+	left:1315px;
+	top:19px;
+}
+
+
+
+/* .reg_text { 
+	color:rgba(0, 0, 0, 1);
+	width:86px;
+	height:15px;
+	position:absolute;
+	left:30px;
+	top:17px;
+	font-family:Roboto;
+	text-align:left;
+	font-size:14px;
+	letter-spacing:0;
+} */
+
+.excursion_text {
+	padding-top: 19px;
+	width: 50%;
+}
+
+.heading { 
+	color:rgba(154.00000602006912, 76.0000030696392, 78.00000295042992, 1);
+	padding-left:43px;
+	font-family:Work Sans;
+	font-size:34px;
+	letter-spacing:-2;
+}
+
+.map{
+	margin-top: 30px;
+}
+
+.map_api { 
+	display: block;
+	width:1384px;
+	height:836px;
+	margin: 0 auto;
+	
+}
+
+.why_we{
+	margin: 25px 0;
+	
+}
+
+.why_we h2{
+	text-align: center;
+	font-family: 'Times New Roman', Times, serif;
+	color:red;
+	text-transform: uppercase;
+}
+
+.why_we .line {
+	margin: 25px auto;
+	width: 1500px;
+	border: 0;
+    height: 1px;
+    background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+    background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+    background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+    background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+}
+
+/* .advantages {
+	margin: 30px 600px 0 600px;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-content: center;
+	padding-bottom: 95px;
+}
+
+.advantage {
+	flex-basis: auto;
+	
+}
+
+.advantage h3 {
+	font-family: Roboto;
+	font-size: 16px;
+	color: red;
+	text-align: center;
+} */
+
+footer{
+	position: absolute;
+	left: 0;
+	/* bottom: 0; */
+	width: 100%;
+	height: 85px;
+}
+
+.footer { 
+	background-color:rgba(221.00000202655792, 221.00000202655792, 221.00000202655792, 1);
+	
+	
+}
+
+.data_footer{
+	margin:0px 270px 0px 270px;
+	height: 85px;
+	display: flex;
+	justify-content: center;
+	align-items:center;
+}
+
+.data_footer .item{
+	flex: 50% 1 1;
+}
+
+.data_footer .name_author p{
+	text-align: center;
+}
+
+.data_footer .email p{
+	text-align: right;
+}
+
